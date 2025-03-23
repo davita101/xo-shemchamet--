@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { create } from 'zustand'
-const WEB_SERVER = "http://localhost:5000"
+const WEB_SERVER = "https://xo-shemchamet.onrender.com"
 export const useTask = create((set) => ({
     allTask: [],
     oneTask: [],
